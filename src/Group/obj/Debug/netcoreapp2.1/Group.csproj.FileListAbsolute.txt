@@ -1,0 +1,14 @@
+/home/developer/Workspace/meus-pedidos-code-challenge/src/Group/bin/Debug/netcoreapp2.1/Group.deps.json
+/home/developer/Workspace/meus-pedidos-code-challenge/src/Group/bin/Debug/netcoreapp2.1/Group.runtimeconfig.json
+/home/developer/Workspace/meus-pedidos-code-challenge/src/Group/bin/Debug/netcoreapp2.1/Group.runtimeconfig.dev.json
+/home/developer/Workspace/meus-pedidos-code-challenge/src/Group/bin/Debug/netcoreapp2.1/Group.dll
+/home/developer/Workspace/meus-pedidos-code-challenge/src/Group/bin/Debug/netcoreapp2.1/Group.pdb
+/home/developer/Workspace/meus-pedidos-code-challenge/src/Group/bin/Debug/netcoreapp2.1/Group.Core.dll
+/home/developer/Workspace/meus-pedidos-code-challenge/src/Group/bin/Debug/netcoreapp2.1/Group.Core.pdb
+/home/developer/Workspace/meus-pedidos-code-challenge/src/Group/obj/Debug/netcoreapp2.1/Group.csprojAssemblyReference.cache
+/home/developer/Workspace/meus-pedidos-code-challenge/src/Group/obj/Debug/netcoreapp2.1/Group.csproj.CoreCompileInputs.cache
+/home/developer/Workspace/meus-pedidos-code-challenge/src/Group/obj/Debug/netcoreapp2.1/Group.AssemblyInfoInputs.cache
+/home/developer/Workspace/meus-pedidos-code-challenge/src/Group/obj/Debug/netcoreapp2.1/Group.AssemblyInfo.cs
+/home/developer/Workspace/meus-pedidos-code-challenge/src/Group/obj/Debug/netcoreapp2.1/Group.csproj.CopyComplete
+/home/developer/Workspace/meus-pedidos-code-challenge/src/Group/obj/Debug/netcoreapp2.1/Group.dll
+/home/developer/Workspace/meus-pedidos-code-challenge/src/Group/obj/Debug/netcoreapp2.1/Group.pdb

@@ -1,0 +1,17 @@
+/home/developer/Workspace/meus-pedidos-code-challenge/test/Group.Core.Test/bin/Debug/netcoreapp2.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/home/developer/Workspace/meus-pedidos-code-challenge/test/Group.Core.Test/bin/Debug/netcoreapp2.1/xunit.runner.reporters.netcoreapp10.dll
+/home/developer/Workspace/meus-pedidos-code-challenge/test/Group.Core.Test/bin/Debug/netcoreapp2.1/xunit.runner.utility.netcoreapp10.dll
+/home/developer/Workspace/meus-pedidos-code-challenge/test/Group.Core.Test/bin/Debug/netcoreapp2.1/Group.Core.Test.deps.json
+/home/developer/Workspace/meus-pedidos-code-challenge/test/Group.Core.Test/bin/Debug/netcoreapp2.1/Group.Core.Test.runtimeconfig.json
+/home/developer/Workspace/meus-pedidos-code-challenge/test/Group.Core.Test/bin/Debug/netcoreapp2.1/Group.Core.Test.runtimeconfig.dev.json
+/home/developer/Workspace/meus-pedidos-code-challenge/test/Group.Core.Test/bin/Debug/netcoreapp2.1/Group.Core.Test.dll
+/home/developer/Workspace/meus-pedidos-code-challenge/test/Group.Core.Test/bin/Debug/netcoreapp2.1/Group.Core.Test.pdb
+/home/developer/Workspace/meus-pedidos-code-challenge/test/Group.Core.Test/bin/Debug/netcoreapp2.1/Group.Core.dll
+/home/developer/Workspace/meus-pedidos-code-challenge/test/Group.Core.Test/bin/Debug/netcoreapp2.1/Group.Core.pdb
+/home/developer/Workspace/meus-pedidos-code-challenge/test/Group.Core.Test/obj/Debug/netcoreapp2.1/Group.Core.Test.csprojAssemblyReference.cache
+/home/developer/Workspace/meus-pedidos-code-challenge/test/Group.Core.Test/obj/Debug/netcoreapp2.1/Group.Core.Test.csproj.CoreCompileInputs.cache
+/home/developer/Workspace/meus-pedidos-code-challenge/test/Group.Core.Test/obj/Debug/netcoreapp2.1/Group.Core.Test.AssemblyInfoInputs.cache
+/home/developer/Workspace/meus-pedidos-code-challenge/test/Group.Core.Test/obj/Debug/netcoreapp2.1/Group.Core.Test.AssemblyInfo.cs
+/home/developer/Workspace/meus-pedidos-code-challenge/test/Group.Core.Test/obj/Debug/netcoreapp2.1/Group.Core.Test.csproj.CopyComplete
+/home/developer/Workspace/meus-pedidos-code-challenge/test/Group.Core.Test/obj/Debug/netcoreapp2.1/Group.Core.Test.dll
+/home/developer/Workspace/meus-pedidos-code-challenge/test/Group.Core.Test/obj/Debug/netcoreapp2.1/Group.Core.Test.pdb

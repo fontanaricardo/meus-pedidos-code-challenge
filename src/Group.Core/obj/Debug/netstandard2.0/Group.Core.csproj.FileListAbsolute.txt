@@ -1,0 +1,9 @@
+/home/developer/Workspace/meus-pedidos-code-challenge/src/Group.Core/bin/Debug/netstandard2.0/Group.Core.deps.json
+/home/developer/Workspace/meus-pedidos-code-challenge/src/Group.Core/bin/Debug/netstandard2.0/Group.Core.dll
+/home/developer/Workspace/meus-pedidos-code-challenge/src/Group.Core/bin/Debug/netstandard2.0/Group.Core.pdb
+/home/developer/Workspace/meus-pedidos-code-challenge/src/Group.Core/obj/Debug/netstandard2.0/Group.Core.csprojAssemblyReference.cache
+/home/developer/Workspace/meus-pedidos-code-challenge/src/Group.Core/obj/Debug/netstandard2.0/Group.Core.csproj.CoreCompileInputs.cache
+/home/developer/Workspace/meus-pedidos-code-challenge/src/Group.Core/obj/Debug/netstandard2.0/Group.Core.AssemblyInfoInputs.cache
+/home/developer/Workspace/meus-pedidos-code-challenge/src/Group.Core/obj/Debug/netstandard2.0/Group.Core.AssemblyInfo.cs
+/home/developer/Workspace/meus-pedidos-code-challenge/src/Group.Core/obj/Debug/netstandard2.0/Group.Core.dll
+/home/developer/Workspace/meus-pedidos-code-challenge/src/Group.Core/obj/Debug/netstandard2.0/Group.Core.pdb

@@ -28,11 +28,9 @@ nomenclatura do arquivo seja o suficiente para diferenciar os tipos.**
 
 ## Exemplos de Arquivos para Teste
 
-https://gist.githubusercontent.com/israelbgf/fbdb325cd35bc5b956b2e350d354648a/raw/b26d28f
-4c01a1ec7298020e88a200d292293ae4b/conteudojson
+https://gist.githubusercontent.com/israelbgf/fbdb325cd35bc5b956b2e350d354648a/raw/b26d28f4c01a1ec7298020e88a200d292293ae4b/conteudojson
 
-https://gist.githubusercontent.com/israelbgf/782a92243d0ba1ff47f9aaf46358f870/raw/86c7a2bf0
-4242bd4262b203ca725ce1da69f035d/conteudocsv
+https://gist.githubusercontent.com/israelbgf/782a92243d0ba1ff47f9aaf46358f870/raw/86c7a2bf04242bd4262b203ca725ce1da69f035d/conteudocsv
 
 A aplicação deve processar o conteúdo do arquivo e exibir no terminal uma lista de estados em
 ordem alfabética informando ao lado a quantidade de clientes daquele estado.
