@@ -14,19 +14,26 @@ namespace Group
 
             if (args.Length != 1)
             {
-                Console.WriteLine("Invalid number of arguments.");
-                Console.WriteLine("Usages:");
-                Console.WriteLine("\tGroup /tmp/test.csv");
-                Console.WriteLine("\tGroup http://tmp/test.csv");
+                Error("Invalid number of arguments.");
                 return;
             }
 
             var address = args[0];
+
             IEnumerable<Customer> customers = null;
             var validFile = false;
+            string content = null;
 
-            var uri = service.Parse(address);
-            var content = service.Load(uri);
+            try
+            {
+                var uri = service.Parse(address);
+                content = service.Load(uri);
+            }
+            catch (Exception ex)
+            {
+                Error(ex.Message);
+                return;
+            }
 
             validFile = service.TryParseFromJson(content, out customers);
 
@@ -37,7 +44,8 @@ namespace Group
 
             if (!validFile)
             {
-                Console.WriteLine("File not supported, please use CSV or JSON.");
+                Error("File not supported, please use CSV or JSON.");
+                return;
             }
 
             var countByState = customers
@@ -52,6 +60,14 @@ namespace Group
             {
                 Console.WriteLine($"{item.State}:\t{item.Count}");
             }
+        }
+
+        static void Error(string message)
+        {
+            Console.WriteLine(message);
+            Console.WriteLine("Usages:");
+            Console.WriteLine("\tGroup /tmp/test.csv");
+            Console.WriteLine("\tGroup http://tmp/test.csv");
         }
     }
 }

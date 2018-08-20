@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Net.Http;
 using System.Text;
 using CsvHelper;
@@ -62,10 +63,10 @@ namespace Group.Core.Services
             {
                 var csv = new CsvReader( new StringReader(content));
                 csv.Configuration.RegisterClassMap<CustomerMap>();
-                customers = csv.GetRecords<Customer>();
+                customers = csv.GetRecords<Customer>().ToList();
                 return true;
             }
-            catch (JsonException)
+            catch (Exception)
             {
                 customers = new List<Customer>();
                 return false;
