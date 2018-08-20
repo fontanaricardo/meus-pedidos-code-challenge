@@ -7,14 +7,17 @@
 Auxiliei na implementação de um ambiente de CI/CD, utilizando o [GitHub Flow](https://guides.github.com/introduction/flow/), através das ferramentas GitLab, Docker e Linux.
 Integrei neste ambiente servidores Windows, para a inclusão de aplicações em plataforma Microsoft e Desktop no processo de CI/CD.
 Criei, integralmente, um ambiente de CI/CD para utilizando GitHub, Circle CI e Amazon ESB, para a publicação de aplicações Web com as tecnologias: Aurelia, DotNet e Java/Scala.
+Implementei rotinas de revisão estática de código através de ferramentas como rubocop, pmdcheck, stylecop, e linters de HTML, CSS e javascript.
+Adicionei rotinas de compressão de arquivos com Grunt e Gulp.
+Criei rotinas de execução automática para atualização de pacotes Nuget, Javascrip NPM, Ruby Gems e Jar.
 
 2. Quais projetos você já fez num ambiente Cloud (AWS, GCP...)? Cite aqui coisas como funções lambda, cloudformation, criação de grupos de scaling, EC2, loadbalancer, entre outros.
 
  * Lambda: Utilizei lambda e Python para criar serviços de processamento de imagens, além de notificações;
  * Cloudformation: Apenas estudei esta tecnologia, no intuito de migrar do ESB para cloudformation;
  * Loadbalancer: Configurei instancias de LoadBalancer com NGINX;
- * ESB: Configurei um ambiente de CI/CD multiplataforma.
-
+ * ESB: Configurei um ambiente de CI/CD multiplataforma;
+ * RDS: Utilizei RDS para banco de dados MySql.
 
 3. Qual sua experiência com containers? Já trabalhou com k8s? Conte sobre sua experiência com essas tecnologias.
 
@@ -23,9 +26,9 @@ Não possuo experiência com kubernetes, atualmente estou estudando Docker Swarm
 
 4. Já participou de migrações e procedimentos críticos? Descreva como foi.
 
-Participei da migração de ambientes da infraestrutura do CIASC para a Prefeitura de Joinville, foram migrados dois sistemas: SGC Sistema de Gestão Cadastral, que era constituído por Linux, Ruby on Rails e Oracle e a NFEM com ambinete Windows DotNet e SqlServer.
+Participei da migração de ambientes da infraestrutura do CIASC para a Prefeitura de Joinville, foram migrados dois sistemas: SGC Sistema de Gestão Cadastral, que era constituído por Linux, Ruby on Rails e Oracle e a NFEM, com ambiente Windows, DotNet e SqlServer.
 Na época da migração, não haviamos implementado a tecnologia de containers, por isso foram criados servidores internos com as mesmas caracteristicas dos servidores externos, foi efetuada uma pré migração da aplicação e do banco de dados, sendo efetuados testes pelos usuários internos, para validar funcionalidades e possíveis problemas.
-Após a validação dos usuários, os problemas foram corrigidos e a migração efetuada. Apesar de todos os cuidados, ocorreram vários problemas com a migração, sendo que os principais foram problemas de performance devido as configurações do Oracle e problemas com referências aos servidores através do endereço IP.
+Após a validação dos usuários, os problemas foram corrigidos e a migração efetuada. Apesar de todos os cuidados, ocorreram problemas com a migração, sendo que os principais foram problemas de performance devido as configurações do Oracle e problemas com referências aos servidores através do endereço IP.
 
 5. Já utilizou ferramentas de monitoramento como NewRelic, Sentry, Cloudwatch, Prometheus e VictorOps? Como foi a sua experiência? Pode citar outras, queremos saber quais métricas você coletava e quais ações aconteciam.
 
@@ -49,7 +52,7 @@ Dentre as melhorias de sistemas, destaco a adaptação de um sistema de execuç�
 
 8. Tem alguma experiência com CI/CD para aplicativos mobile?
 
-Não possuo experiência com CI/CD para mobile, mais já estive envolvido na criação de aplicativos.
+Não possuo experiência com CI/CD para mobile, mais já estive envolvido na criação deste tipo aplicativos, conheço o processo de compilação e os artefatos gerados.
 
 9. Já trabalhou com filas assíncronas (AMQP) como Sidekiq e Celery? Qual a sua experiência?
 
