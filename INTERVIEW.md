@@ -40,7 +40,9 @@ Atualmente utilizo as seguintes tecnologias para monitoramento:
 
 7. Qual sua experiência com programação? Já fez alguma otimização de algoritmo que deu uma melhora significativa em um projeto? Qual a coisa mais complexa que já construiu?
 
-
+Tenho grande experiência com desenvolvimento, trabalhei com várias plataformas, entre elas PHP, Ruby on Rails, Python, Java/Scala e Asp.Net.
+Dentre os sistemas complexos que criei, estão um sistema para automatizar a geração e manutenção de usuários no Active Directory e a adaptação de um sistema de OAuth para autenticação e autorização de aplicações de terceiros.
+Dentre as melhorias de sistemas, destaco a adaptação de um sistema de execução em lotes que reduziu significativamente o tempo de processamento para diferentes clientes (item 9).
 
 8. Tem alguma experiência com CI/CD para aplicativos mobile?
 
@@ -48,4 +50,4 @@ Não possuo experiência com CI/CD para mobile, mais já estive envolvido na cri
 
 9. Já trabalhou com filas assíncronas (AMQP) como Sidekiq e Celery? Qual a sua experiência?
 
-Não utilizei estas tecnologias, atualmente utilizo 
+Não utilizei estas tecnologias, para processamento assíncrono, utilizo uma aplicação de linha de comando que é executada continuamente, esta aplicação varre a base de dados e verifica quais registros estão pendentes de processamento. Para cada cliente da aplicação, é gerada uma nova thread, que processa e marca os arquivos como processados. Caso ocorra algum problema neste processo, o registro  é marcado para revisão e é enviada uma notificação via e-mail para o suporte.
