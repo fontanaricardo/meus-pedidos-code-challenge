@@ -6,7 +6,6 @@
 
   <ItemGroup>
     <PackageReference Include="CsvHelper" Version="8.0.0-beta01" />
-    <PackageReference Include="Mime-Detective" Version="0.0.5" />
     <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
   </ItemGroup>
 
