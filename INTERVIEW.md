@@ -38,6 +38,9 @@ Atualmente utilizo as seguintes tecnologias para monitoramento:
 
 6. Qual sua experiência com SQL? Qual sua experiência otimizando o desempenho de banco/consultas? Conte um dos seus momentos mais "memoráveis" nesse aspecto.
 
+Tenho experiência com MySql, Postgres e SqlServer, criando queries tanto para processamento espacial quanto relatórios.
+Meu momento mais memorável, foi a melhoria de uma consulta que demorada cerca de 20 minutos para ser executada, isso foi possível graças a redução do número de subqueries, geração de indices e particionamento da tabela por ano.
+
 7. Qual sua experiência com programação? Já fez alguma otimização de algoritmo que deu uma melhora significativa em um projeto? Qual a coisa mais complexa que já construiu?
 
 Tenho grande experiência com desenvolvimento, trabalhei com várias plataformas, entre elas PHP, Ruby on Rails, Python, Java/Scala e Asp.Net.
