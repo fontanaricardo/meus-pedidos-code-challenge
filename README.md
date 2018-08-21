@@ -15,3 +15,9 @@ To group the user from local file use de command:
 ```
 docker run -v <folder>:<folder> fontanaricardo/group <folder>/<file>
 ```
+
+To start a new development environment, use the command:
+
+```
+docker run -it --rm -v $PWD:/app microsoft/dotnet:2.1-sdk bash
+```
